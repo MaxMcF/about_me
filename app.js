@@ -116,7 +116,7 @@ function score(){
     console.log(qlog);
     // var Congratulations = alertLog[10].join(name);
     alert(alertLog[10][0].join(name) + alertLog[10][1].join(correctAns));
-    }
-  global();
   }
+  global();
+}
 score();
