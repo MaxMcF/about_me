@@ -4,7 +4,6 @@ function score(){
   var q1 = 'First what is your name?';
   var name = prompt(q1);
   var correctAns = 0;
-
   function global(){
 
     alert('Time to play! Yes or No only!');
@@ -118,5 +117,6 @@ function score(){
     alert(alertLog[10][0].join(name) + alertLog[10][1].join(correctAns));
   }
   global();
+
 }
 score();
