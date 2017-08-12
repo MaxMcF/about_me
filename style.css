@@ -6,10 +6,9 @@
   position: relative;
   text-align: center;
   border: 3px solid #000000;
-  margin: 30px auto;
-  width: 400px;
-  left: 100%;
-  opacity: 0.6;
+  margin-left: 5%;
+  border-width: 90%px;
+  opacity: 0.9;
 }
 #userStory {
   font-size: 22px;
@@ -34,7 +33,7 @@
   float: auto;
   right: 30%;
   height: 1000px;
-  opacity: .6;
+  opacity: .9;
 }
 .opener{
   font-size: 18px;
@@ -55,29 +54,70 @@
   border: 5px solid black;
   right: 20px;
   margin: 20px auto;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 h2{
   text-align: center;
 }
-.sideBar{
+.linkBar{
   background-color: white;
   corder: 5px solid black;
-  position: fixed;
-  height: 800px;
+  position: relative;
+  width: 80%;
   border: 5px solid black;
-  opacity: 0.6;
+  opacity: 0.9;
   font-family: Georgia;
   font-size: 18px;
   padding-right: 10px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 5%;
 }
+.linksList{
+  display: inline;
+}
+.linksList.ul{
+  margin: 15px;
+  border: 2px solid black;
+  background-color: white;
+}
+.sideColumn{
+  display: inline-block;
+  background-color: white;
+  border: 5px solid black;
+  position: absolute;
+  width: 13%;
+  height: 900px;
+  left: 4px;
+  top: 173px;
+  text-align: left;
+  font-family: Georgia;
+  font-size: 18px;
+  padding: 10px;
 
+}
+nav {
+  width: 90%;
+}
+nav ul li {
+  display: inline;
+  float:left;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 12px;
+
+}
 body {
   background-image: url('http://bgfons.com/upload/lines_texture1095.jpg');
   background-color: #226666;
   background-blend-mode: lighten;
   background-size: 100%;
   display: inline-block;
+  width: 90%;
 }
 div #userStory {
   text-align: center;
